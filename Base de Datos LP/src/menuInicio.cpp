@@ -18,7 +18,7 @@ void menuInicio::iniciarMenu(){
             menuNuevoDiccionario.iniciarMenu();
         }
 
-        if(res != 1 && res && 2 && res != 3){
+        if(res != 1 && res != 2 && res != 3){
             std::cout << "\nSeleccion invalida!" << std::endl;
         }
 
