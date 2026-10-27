@@ -1,5 +1,5 @@
-#include "menuNuevoDiccionario.h"
-#include "menuEntidades.h"
+#include "MenuNuevoDiccionario.h"
+#include "MenuEntidades.h"
 #include <iostream>
 
 void menuNuevoDiccionario::iniciarMenu(){
