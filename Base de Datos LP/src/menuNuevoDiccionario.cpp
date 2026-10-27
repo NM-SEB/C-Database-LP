@@ -27,6 +27,7 @@ void menuNuevoDiccionario::iniciarMenu(){
         std::fstream file("../../../data/" + fName, std::ios::out | std::ios::in | std::ios::trunc | std::ios::binary);
         if (file.is_open()) {
             std::cout << "El archivo fue creado con exito (abrir con wb+). . ." << std::endl;
+            std::cout << "LLamando a escribeCabEntidades para apuntarlo a -1 (null)" << std::endl;
         } else {
             std::cout << "El archivo no fue creado!" << std::endl;
         }
@@ -38,7 +39,7 @@ void menuNuevoDiccionario::iniciarMenu(){
         menuEntidades menuEntidades;
         menuEntidades.iniciarMenu();
 
-        std::cout << "Quieres seguir creando? (salir del menu) (s/n)" << std::endl;
+        std::cout << "Quieres seguir creando diccionarios? (salir del menu) (s/n)" << std::endl;
 
         char res;
         std::cin >> res;

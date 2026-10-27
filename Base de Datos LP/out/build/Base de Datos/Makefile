@@ -331,30 +331,6 @@ src/menuNuevoDiccionario.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\programa.dir\build.make CMakeFiles/programa.dir/src/menuNuevoDiccionario.cpp.s
 .PHONY : src/menuNuevoDiccionario.cpp.s
 
-src/persona.obj: src/persona.cpp.obj
-.PHONY : src/persona.obj
-
-# target to build an object file
-src/persona.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\programa.dir\build.make CMakeFiles/programa.dir/src/persona.cpp.obj
-.PHONY : src/persona.cpp.obj
-
-src/persona.i: src/persona.cpp.i
-.PHONY : src/persona.i
-
-# target to preprocess a source file
-src/persona.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\programa.dir\build.make CMakeFiles/programa.dir/src/persona.cpp.i
-.PHONY : src/persona.cpp.i
-
-src/persona.s: src/persona.cpp.s
-.PHONY : src/persona.s
-
-# target to generate assembly for a file
-src/persona.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\programa.dir\build.make CMakeFiles/programa.dir/src/persona.cpp.s
-.PHONY : src/persona.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -388,9 +364,6 @@ help:
 	@echo ... src/menuNuevoDiccionario.obj
 	@echo ... src/menuNuevoDiccionario.i
 	@echo ... src/menuNuevoDiccionario.s
-	@echo ... src/persona.obj
-	@echo ... src/persona.i
-	@echo ... src/persona.s
 .PHONY : help
 
 

@@ -6,7 +6,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(programa
     src/main.cpp
-    src/persona.cpp
     src/entidad.cpp
     src/menuInicio.cpp
     src/menuNuevoDiccionario.cpp

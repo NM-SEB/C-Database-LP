@@ -16,7 +16,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/seb/Desktop/Base de datos LP/C-Database-LP/Base de Datos LP/src/menuEntidades.cpp" "CMakeFiles/programa.dir/src/menuEntidades.cpp.obj" "gcc" "CMakeFiles/programa.dir/src/menuEntidades.cpp.obj.d"
   "C:/Users/seb/Desktop/Base de datos LP/C-Database-LP/Base de Datos LP/src/menuInicio.cpp" "CMakeFiles/programa.dir/src/menuInicio.cpp.obj" "gcc" "CMakeFiles/programa.dir/src/menuInicio.cpp.obj.d"
   "C:/Users/seb/Desktop/Base de datos LP/C-Database-LP/Base de Datos LP/src/menuNuevoDiccionario.cpp" "CMakeFiles/programa.dir/src/menuNuevoDiccionario.cpp.obj" "gcc" "CMakeFiles/programa.dir/src/menuNuevoDiccionario.cpp.obj.d"
-  "C:/Users/seb/Desktop/Base de datos LP/C-Database-LP/Base de Datos LP/src/persona.cpp" "CMakeFiles/programa.dir/src/persona.cpp.obj" "gcc" "CMakeFiles/programa.dir/src/persona.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
