@@ -1,5 +1,6 @@
 #include "MenuInicio.h"
 #include "MenuNuevoDiccionario.h"
+#include "MenuAbrirDiccionario.h"
 #include <iostream>
 
 void menuInicio::iniciarMenu(){
@@ -16,6 +17,9 @@ void menuInicio::iniciarMenu(){
         if(res == 1){
             menuNuevoDiccionario menuNuevoDiccionario;
             menuNuevoDiccionario.iniciarMenu();
+        } else if(res == 2){
+            menuAbrirDiccionario menuAbrirDiccionario;
+            menuAbrirDiccionario.iniciarMenu();
         }
 
         if(res != 1 && res != 2 && res != 3){
