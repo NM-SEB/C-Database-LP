@@ -1,0 +1,50 @@
+[
+{
+  "directory": "C:/Users/seb/Desktop/Base de Datos LP/out/build/Base de Datos",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\programa.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\programa.dir\\src\\main.cpp.obj -c \"C:\\Users\\seb\\Desktop\\Base de Datos LP\\src\\main.cpp\"",
+  "file": "C:/Users/seb/Desktop/Base de Datos LP/src/main.cpp",
+  "output": "CMakeFiles/programa.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/seb/Desktop/Base de Datos LP/out/build/Base de Datos",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\programa.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\programa.dir\\src\\persona.cpp.obj -c \"C:\\Users\\seb\\Desktop\\Base de Datos LP\\src\\persona.cpp\"",
+  "file": "C:/Users/seb/Desktop/Base de Datos LP/src/persona.cpp",
+  "output": "CMakeFiles/programa.dir/src/persona.cpp.obj"
+},
+{
+  "directory": "C:/Users/seb/Desktop/Base de Datos LP/out/build/Base de Datos",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\programa.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\programa.dir\\src\\entidad.cpp.obj -c \"C:\\Users\\seb\\Desktop\\Base de Datos LP\\src\\entidad.cpp\"",
+  "file": "C:/Users/seb/Desktop/Base de Datos LP/src/entidad.cpp",
+  "output": "CMakeFiles/programa.dir/src/entidad.cpp.obj"
+},
+{
+  "directory": "C:/Users/seb/Desktop/Base de Datos LP/out/build/Base de Datos",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\programa.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\programa.dir\\src\\menuInicio.cpp.obj -c \"C:\\Users\\seb\\Desktop\\Base de Datos LP\\src\\menuInicio.cpp\"",
+  "file": "C:/Users/seb/Desktop/Base de Datos LP/src/menuInicio.cpp",
+  "output": "CMakeFiles/programa.dir/src/menuInicio.cpp.obj"
+},
+{
+  "directory": "C:/Users/seb/Desktop/Base de Datos LP/out/build/Base de Datos",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\programa.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\programa.dir\\src\\menuNuevoDiccionario.cpp.obj -c \"C:\\Users\\seb\\Desktop\\Base de Datos LP\\src\\menuNuevoDiccionario.cpp\"",
+  "file": "C:/Users/seb/Desktop/Base de Datos LP/src/menuNuevoDiccionario.cpp",
+  "output": "CMakeFiles/programa.dir/src/menuNuevoDiccionario.cpp.obj"
+},
+{
+  "directory": "C:/Users/seb/Desktop/Base de Datos LP/out/build/Base de Datos",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\programa.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\programa.dir\\src\\menuEntidades.cpp.obj -c \"C:\\Users\\seb\\Desktop\\Base de Datos LP\\src\\menuEntidades.cpp\"",
+  "file": "C:/Users/seb/Desktop/Base de Datos LP/src/menuEntidades.cpp",
+  "output": "CMakeFiles/programa.dir/src/menuEntidades.cpp.obj"
+},
+{
+  "directory": "C:/Users/seb/Desktop/Base de Datos LP/out/build/Base de Datos",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\programa.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\programa.dir\\src\\menuAtributos.cpp.obj -c \"C:\\Users\\seb\\Desktop\\Base de Datos LP\\src\\menuAtributos.cpp\"",
+  "file": "C:/Users/seb/Desktop/Base de Datos LP/src/menuAtributos.cpp",
+  "output": "CMakeFiles/programa.dir/src/menuAtributos.cpp.obj"
+},
+{
+  "directory": "C:/Users/seb/Desktop/Base de Datos LP/out/build/Base de Datos",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\programa.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\programa.dir\\src\\menuDatos.cpp.obj -c \"C:\\Users\\seb\\Desktop\\Base de Datos LP\\src\\menuDatos.cpp\"",
+  "file": "C:/Users/seb/Desktop/Base de Datos LP/src/menuDatos.cpp",
+  "output": "CMakeFiles/programa.dir/src/menuDatos.cpp.obj"
+}
+]

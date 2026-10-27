@@ -1,0 +1,3 @@
+C:/Users/seb/Desktop/Base de Datos LP/out/build/Base de Datos/CMakeFiles/programa.dir
+C:/Users/seb/Desktop/Base de Datos LP/out/build/Base de Datos/CMakeFiles/edit_cache.dir
+C:/Users/seb/Desktop/Base de Datos LP/out/build/Base de Datos/CMakeFiles/rebuild_cache.dir
