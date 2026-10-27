@@ -1,5 +1,4 @@
 #include <carpeta.h>
-#include <system_error>
 
 carpeta::carpeta() : nombre_carpeta("Diccionarios") {}
 

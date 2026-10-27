@@ -1,6 +1,7 @@
 #pragma once
 #include <filesystem>
 #include <string>
+#include <system_error>
 
 class carpeta{
     public:
