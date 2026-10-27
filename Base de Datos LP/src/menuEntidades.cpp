@@ -41,11 +41,8 @@ void menuEntidades::iniciarMenu(){
                 break;
 
             default:
+                std::cout << "\nSeleccion invalida!" << std::endl;
                 break;
-        }
-
-        if(res != 1 && res != 2 && res != 3 && res != 4 && res != 5 && res != 6 && res != 7){
-            std::cout << "\nSeleccion invalida!" << std::endl;
         }
 
     }while(res != 7);
