@@ -1,7 +1,7 @@
 CMakeFiles/programa.dir/src/menuInicio.cpp.obj: \
- C:\Users\seb\Desktop\Base\ de\ Datos\ LP\src\menuInicio.cpp \
- C:/Users/seb/Desktop/BASEDE~1/include/MenuInicio.h \
- C:/Users/seb/Desktop/BASEDE~1/include/MenuNuevoDiccionario.h \
+ C:\Users\seb\Desktop\Base\ de\ datos\ LP\C-Database-LP\Base\ de\ Datos\ LP\src\menuInicio.cpp \
+ C:/Users/seb/Desktop/BASEDE~1/C-DATA~1/BASEDE~1/include/MenuInicio.h \
+ C:/Users/seb/Desktop/BASEDE~1/C-DATA~1/BASEDE~1/include/MenuNuevoDiccionario.h \
  C:/msys64/ucrt64/include/c++/16.2.0/iostream \
  C:/msys64/ucrt64/include/c++/16.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/c++config.h \

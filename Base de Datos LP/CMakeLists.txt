@@ -13,6 +13,7 @@ add_executable(programa
     src/menuEntidades.cpp
     src/menuAtributos.cpp
     src/menuDatos.cpp
+    src/menuAbrirDiccionario.cpp
 )
 
 target_include_directories(programa PRIVATE include)

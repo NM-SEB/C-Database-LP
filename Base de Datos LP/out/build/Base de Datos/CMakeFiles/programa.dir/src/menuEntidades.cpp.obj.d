@@ -1,8 +1,8 @@
 CMakeFiles/programa.dir/src/menuEntidades.cpp.obj: \
- C:\Users\seb\Desktop\Base\ de\ Datos\ LP\src\menuEntidades.cpp \
- C:/Users/seb/Desktop/BASEDE~1/include/MenuEntidades.h \
- C:/Users/seb/Desktop/BASEDE~1/include/MenuAtributos.h \
- C:/Users/seb/Desktop/BASEDE~1/include/MenuDatos.h \
+ C:\Users\seb\Desktop\Base\ de\ datos\ LP\C-Database-LP\Base\ de\ Datos\ LP\src\menuEntidades.cpp \
+ C:/Users/seb/Desktop/BASEDE~1/C-DATA~1/BASEDE~1/include/MenuEntidades.h \
+ C:/Users/seb/Desktop/BASEDE~1/C-DATA~1/BASEDE~1/include/MenuAtributos.h \
+ C:/Users/seb/Desktop/BASEDE~1/C-DATA~1/BASEDE~1/include/MenuDatos.h \
  C:/msys64/ucrt64/include/c++/16.2.0/iostream \
  C:/msys64/ucrt64/include/c++/16.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/c++config.h \

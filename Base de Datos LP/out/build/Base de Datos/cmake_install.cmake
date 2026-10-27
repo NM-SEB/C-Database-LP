@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/seb/Desktop/Base de Datos LP
+# Install script for directory: C:/Users/seb/Desktop/Base de datos LP/C-Database-LP/Base de Datos LP
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/seb/Desktop/Base de Datos LP/out/install/Base de Datos")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/seb/Desktop/Base de datos LP/C-Database-LP/Base de Datos LP/out/install/Base de Datos")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,7 +40,7 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/seb/Desktop/Base de Datos LP/out/build/Base de Datos/install_local_manifest.txt"
+  file(WRITE "C:/Users/seb/Desktop/Base de datos LP/C-Database-LP/Base de Datos LP/out/build/Base de Datos/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -56,6 +56,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/seb/Desktop/Base de Datos LP/out/build/Base de Datos/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/seb/Desktop/Base de datos LP/C-Database-LP/Base de Datos LP/out/build/Base de Datos/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -59,10 +59,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\seb\Desktop\Base de Datos LP"
+CMAKE_SOURCE_DIR = "C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\seb\Desktop\Base de Datos LP\out\build\Base de Datos"
+CMAKE_BINARY_DIR = "C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\out\build\Base de Datos"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -89,9 +89,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\seb\Desktop\Base de Datos LP\out\build\Base de Datos\CMakeFiles" "C:\Users\seb\Desktop\Base de Datos LP\out\build\Base de Datos\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\out\build\Base de Datos\CMakeFiles" "C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\out\build\Base de Datos\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\seb\Desktop\Base de Datos LP\out\build\Base de Datos\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\out\build\Base de Datos\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -186,6 +186,30 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\programa.dir\build.make CMakeFiles/programa.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/menuAbrirDiccionario.obj: src/menuAbrirDiccionario.cpp.obj
+.PHONY : src/menuAbrirDiccionario.obj
+
+# target to build an object file
+src/menuAbrirDiccionario.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\programa.dir\build.make CMakeFiles/programa.dir/src/menuAbrirDiccionario.cpp.obj
+.PHONY : src/menuAbrirDiccionario.cpp.obj
+
+src/menuAbrirDiccionario.i: src/menuAbrirDiccionario.cpp.i
+.PHONY : src/menuAbrirDiccionario.i
+
+# target to preprocess a source file
+src/menuAbrirDiccionario.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\programa.dir\build.make CMakeFiles/programa.dir/src/menuAbrirDiccionario.cpp.i
+.PHONY : src/menuAbrirDiccionario.cpp.i
+
+src/menuAbrirDiccionario.s: src/menuAbrirDiccionario.cpp.s
+.PHONY : src/menuAbrirDiccionario.s
+
+# target to generate assembly for a file
+src/menuAbrirDiccionario.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\programa.dir\build.make CMakeFiles/programa.dir/src/menuAbrirDiccionario.cpp.s
+.PHONY : src/menuAbrirDiccionario.cpp.s
 
 src/menuAtributos.obj: src/menuAtributos.cpp.obj
 .PHONY : src/menuAtributos.obj
@@ -346,6 +370,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/menuAbrirDiccionario.obj
+	@echo ... src/menuAbrirDiccionario.i
+	@echo ... src/menuAbrirDiccionario.s
 	@echo ... src/menuAtributos.obj
 	@echo ... src/menuAtributos.i
 	@echo ... src/menuAtributos.s

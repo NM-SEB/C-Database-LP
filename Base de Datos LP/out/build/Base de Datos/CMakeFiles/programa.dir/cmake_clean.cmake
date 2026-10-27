@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/programa.dir/src/entidad.cpp.obj.d"
   "CMakeFiles/programa.dir/src/main.cpp.obj"
   "CMakeFiles/programa.dir/src/main.cpp.obj.d"
+  "CMakeFiles/programa.dir/src/menuAbrirDiccionario.cpp.obj"
+  "CMakeFiles/programa.dir/src/menuAbrirDiccionario.cpp.obj.d"
   "CMakeFiles/programa.dir/src/menuAtributos.cpp.obj"
   "CMakeFiles/programa.dir/src/menuAtributos.cpp.obj.d"
   "CMakeFiles/programa.dir/src/menuDatos.cpp.obj"
