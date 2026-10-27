@@ -1,8 +1,16 @@
-#include "MenuInicio.h"
+#include <carpeta.h>
+#include <iostream>
 
 int main(){
-    menuInicio menu;
-    menu.iniciarMenu();
+    carpeta diccionarios;
+
+    try {
+        diccionarios.crear_carpeta();
+        diccionarios.obtener_carpeta();
+    } catch (const std::filesystem::filesystem_error& error) {
+        std::cerr << error.what() << '\n';
+        return 1;
+    }
 
     return 0;
 }
