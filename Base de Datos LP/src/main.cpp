@@ -1,4 +1,5 @@
 #include "Carpeta.h"
+#include "Diccionario.h"
 #include <iostream>
 
 int main(){
@@ -6,7 +7,7 @@ int main(){
 
     try {
         diccionarios.crear_carpeta();
-        diccionarios.obtener_carpeta();
+        Diccionario diccionario(diccionarios.obtener_carpeta());
     } catch (const std::filesystem::filesystem_error& error) {
         std::cerr << error.what() << '\n';
         return 1;

@@ -1,5 +1,6 @@
 #include "Atributos.h"
 #include <iostream>
+#include <limits>
 #include <string>
 #include <filesystem>
 using std::string;
@@ -16,7 +17,13 @@ Atributos::Atributos(){
         cout << "\t4.- Modificar atributo" <<endl;
         cout << "\t5.- Salir al menu anterior" <<endl;
         cout << "Seleccione una opcion: ";
-        cin >> op;
+        if(!(cin >> op)){
+            if(cin.eof())
+                return;
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            op = 0;
+        }
 
         switch (op)
         {

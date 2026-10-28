@@ -3,6 +3,7 @@ using std::string;
 #include "Diccionario.h"
 #include "Entidad.h"
 #include <iostream>
+#include <limits>
 #include <filesystem>
 namespace fs = std::filesystem;
 using namespace std;
@@ -15,7 +16,13 @@ Diccionario::Diccionario(const string& dir){
         cout << "\t2.- Abrir diccionario" << endl;
         cout << "\t3.- Salir" << endl;
         cout << "Escoja una opcion" << endl;
-        cin >> op;
+        if(!(cin >> op)){
+            if(cin.eof())
+                return;
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            op = 0;
+        }
 
         switch (op){
         case 1:
@@ -35,7 +42,7 @@ Diccionario::Diccionario(const string& dir){
             cout << "Opcion incorrecta";
             break;
         }
-    }while(op != -1); 
+    }while(op != 3); 
     
     return;
 }

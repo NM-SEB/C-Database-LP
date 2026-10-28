@@ -2,6 +2,7 @@
 #include "Atributos.h"
 #include "Datos.h"
 #include <iostream>
+#include <limits>
 #include <string>
 using std::string;
 #include <filesystem>
@@ -21,7 +22,13 @@ Entidad::Entidad(string arch){
         cout << "\t6.- Menu Datos" << endl;
         cout << "\t7.- Salir al menu anterior" << endl;
         cout << "Seleccione una opcion: ";
-        cin >> op;
+        if(!(cin >> op)){
+            if(cin.eof())
+                return;
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            op = 0;
+        }
 
         switch (op)
         {
