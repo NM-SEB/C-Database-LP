@@ -1,14 +1,15 @@
 #pragma once
 #include <string>
 
-class Atributos
-{
+class Atributos{
     private:
         std::string nombre;
-        int edad;
-        float estatura;
-        double peso;
-        char sexo;
-        long id;
+
     public:
+        Atributos();
+        bool nuevo();
+        void consultar();
+        bool eliminar();
+        bool modificar();
+
 };

@@ -3,9 +3,9 @@
 #include <string>
 #include <system_error>
 
-class carpeta{
+class Carpeta{
     public:
-        carpeta();
+        Carpeta();
         bool crear_carpeta() const;
         std::string obtener_carpeta() const;
 

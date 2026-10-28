@@ -1,8 +1,8 @@
-#include <carpeta.h>
+#include <Carpeta.h>
 #include <iostream>
 
 int main(){
-    carpeta diccionarios;
+    Carpeta diccionarios;
 
     try {
         diccionarios.crear_carpeta();

@@ -1,8 +1,8 @@
-#include <carpeta.h>
+#include <Carpeta.h>
 
-carpeta::carpeta() : nombre_carpeta("Diccionarios") {}
+Carpeta::Carpeta() : nombre_carpeta("Diccionarios") {}
 
-bool carpeta::crear_carpeta() const {
+bool Carpeta::crear_carpeta() const {
     std::error_code error;
     const bool creada = std::filesystem::create_directories(nombre_carpeta, error);
 
@@ -13,6 +13,6 @@ bool carpeta::crear_carpeta() const {
     return creada;
 }
 
-std::string carpeta::obtener_carpeta() const {
+std::string Carpeta::obtener_carpeta() const {
     return nombre_carpeta;
 }

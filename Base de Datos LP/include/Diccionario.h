@@ -2,11 +2,11 @@
 #include <string>
 #include <filesystem>
 
-class diccionario{
+class Diccionario{
+    private:
+        std::string dir;
     public:
-        diccionario(const std::string& dir);
+        Diccionario(const std::string& dir);
         bool crear_diccionario() const;
         bool verificar_diccionario(std::string& n) const;
-        
-        void menu_entidad();
 };
