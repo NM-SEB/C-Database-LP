@@ -38,10 +38,10 @@ Entidad::Entidad(string arch){
             modificar();
             break;
         case 5:
-            Atributos atr();
+            { Atributos atr; }
             break;
         case 6:
-            Datos dat();
+            { Datos dat; }
             break;
         case 7:
             cout << endl << "Saliendo al menu anterior . . ." << endl;

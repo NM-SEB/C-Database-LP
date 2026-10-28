@@ -10,6 +10,7 @@ add_executable(programa
     src/diccionario.cpp
     src/entidad.cpp
     src/atributos.cpp
+    src/datos.cpp
 )
 
 target_include_directories(programa PRIVATE include)

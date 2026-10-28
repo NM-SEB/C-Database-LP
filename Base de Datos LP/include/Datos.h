@@ -2,9 +2,14 @@
 #include <string>
 
 class Datos{
+    private:
+        std::string nombre;
+
     public:
-        bool nuevo();
+        Datos();
+        void nuevo();
         void consultar();
-        bool eliminar();
-        bool modificar();
+        void eliminar();
+        void modificar();
+        bool verificar(std::string& n);
 };
