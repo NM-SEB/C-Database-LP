@@ -1,4 +1,4 @@
-#include <Carpeta.h>
+#include "Carpeta.h"
 
 Carpeta::Carpeta() : nombre_carpeta("Diccionarios") {}
 

@@ -7,6 +7,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(programa
     src/main.cpp
     src/carpeta.cpp
+    src/diccionario.cpp
+    src/entidad.cpp
+    src/atributos.cpp
 )
 
 target_include_directories(programa PRIVATE include)
