@@ -7,13 +7,13 @@ using std::string;
 namespace fs = std::filesystem;
 using namespace std;
 
-Diccionario::Diccionario(const std::string& dir){
+Diccionario::Diccionario(const string& dir){
     int op = -1;
 
     do{
         cout << endl << endl << "\t1.- Nuevo diccionario" << endl;
         cout << "\t2.- Abrir diccionario" << endl;
-        cout << "\t-1.- Salir" << endl;
+        cout << "\t3.- Salir" << endl;
         cout << "Escoja una opcion" << endl;
         cin >> op;
 
@@ -28,7 +28,7 @@ Diccionario::Diccionario(const std::string& dir){
             cin >> nombre;
             abrir(nombre);
             break;
-        case -1:
+        case 3:
             cout << "Saliendo al menu anterior . . .";
             break;
         default:

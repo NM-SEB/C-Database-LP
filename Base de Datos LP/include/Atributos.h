@@ -7,9 +7,9 @@ class Atributos{
 
     public:
         Atributos();
-        bool nuevo();
+        void nuevo();
         void consultar();
-        bool eliminar();
-        bool modificar();
-
+        void eliminar();
+        void modificar();
+        bool verificar(std::string& n);
 };
