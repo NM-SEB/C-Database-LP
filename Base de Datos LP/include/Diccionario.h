@@ -5,8 +5,10 @@
 class Diccionario{
     private:
         std::string dir;
+        std::string nombre;
     public:
         Diccionario(const std::string& dir);
-        bool crear_diccionario() const;
-        bool verificar_diccionario(std::string& n) const;
+        void crear(std::string& n);
+        bool verificar(std::string& n);
+        void abrir(std::string &n);
 };
