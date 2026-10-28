@@ -15,6 +15,7 @@ Diccionario::Diccionario(const std::string& dir){
         cout << "\t2.- Abrir diccionario" << endl;
         cout << "\t-1.- Salir" << endl;
         cout << "Escoja una opcion" << endl;
+        cin >> op;
 
         switch (op){
         case 1:
@@ -41,7 +42,7 @@ Diccionario::Diccionario(const std::string& dir){
 
 void Diccionario::crear(string& n){
     if(!verificar(n)){
-        cout << endl << "Creando archivo: ", n;
+        cout << endl << "Creando archivo: " << n;
         cout << endl << "Archivo creado" << endl;
     }else
         cout << endl << "El archivo ya existe" << endl;
@@ -61,7 +62,7 @@ bool Diccionario::verificar(string &n){
 void Diccionario::abrir(string& n){
     if(verificar(n)){
         cout << endl << "Entrando al diccionario . . .";
-        Entidad(n);
+        Entidad ent(n);
     }else    
         cout << endl << "El archivo no existe";
     return;
