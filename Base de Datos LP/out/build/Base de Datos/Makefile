@@ -139,29 +139,29 @@ test_prep/all: cmake_check_build_system
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test_prep/all
 .PHONY : test_prep/all
 
-src/entidad.obj: src/entidad.cpp.obj
-.PHONY : src/entidad.obj
+src/diccionario.obj: src/diccionario.cpp.obj
+.PHONY : src/diccionario.obj
 
 # target to build an object file
-src/entidad.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\programa.dir\build.make CMakeFiles/programa.dir/src/entidad.cpp.obj
-.PHONY : src/entidad.cpp.obj
+src/diccionario.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\programa.dir\build.make CMakeFiles/programa.dir/src/diccionario.cpp.obj
+.PHONY : src/diccionario.cpp.obj
 
-src/entidad.i: src/entidad.cpp.i
-.PHONY : src/entidad.i
+src/diccionario.i: src/diccionario.cpp.i
+.PHONY : src/diccionario.i
 
 # target to preprocess a source file
-src/entidad.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\programa.dir\build.make CMakeFiles/programa.dir/src/entidad.cpp.i
-.PHONY : src/entidad.cpp.i
+src/diccionario.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\programa.dir\build.make CMakeFiles/programa.dir/src/diccionario.cpp.i
+.PHONY : src/diccionario.cpp.i
 
-src/entidad.s: src/entidad.cpp.s
-.PHONY : src/entidad.s
+src/diccionario.s: src/diccionario.cpp.s
+.PHONY : src/diccionario.s
 
 # target to generate assembly for a file
-src/entidad.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\programa.dir\build.make CMakeFiles/programa.dir/src/entidad.cpp.s
-.PHONY : src/entidad.cpp.s
+src/diccionario.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\programa.dir\build.make CMakeFiles/programa.dir/src/diccionario.cpp.s
+.PHONY : src/diccionario.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -331,6 +331,30 @@ src/menuNuevoDiccionario.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\programa.dir\build.make CMakeFiles/programa.dir/src/menuNuevoDiccionario.cpp.s
 .PHONY : src/menuNuevoDiccionario.cpp.s
 
+src/persona.obj: src/persona.cpp.obj
+.PHONY : src/persona.obj
+
+# target to build an object file
+src/persona.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\programa.dir\build.make CMakeFiles/programa.dir/src/persona.cpp.obj
+.PHONY : src/persona.cpp.obj
+
+src/persona.i: src/persona.cpp.i
+.PHONY : src/persona.i
+
+# target to preprocess a source file
+src/persona.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\programa.dir\build.make CMakeFiles/programa.dir/src/persona.cpp.i
+.PHONY : src/persona.cpp.i
+
+src/persona.s: src/persona.cpp.s
+.PHONY : src/persona.s
+
+# target to generate assembly for a file
+src/persona.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\programa.dir\build.make CMakeFiles/programa.dir/src/persona.cpp.s
+.PHONY : src/persona.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -340,9 +364,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... programa
-	@echo ... src/entidad.obj
-	@echo ... src/entidad.i
-	@echo ... src/entidad.s
+	@echo ... src/diccionario.obj
+	@echo ... src/diccionario.i
+	@echo ... src/diccionario.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
@@ -364,6 +388,9 @@ help:
 	@echo ... src/menuNuevoDiccionario.obj
 	@echo ... src/menuNuevoDiccionario.i
 	@echo ... src/menuNuevoDiccionario.s
+	@echo ... src/persona.obj
+	@echo ... src/persona.i
+	@echo ... src/persona.s
 .PHONY : help
 
 

@@ -7,9 +7,15 @@
 },
 {
   "directory": "C:/Users/seb/Desktop/Base de datos LP/C-Database-LP/Base de Datos LP/out/build/Base de Datos",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\programa.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\programa.dir\\src\\entidad.cpp.obj -c \"C:\\Users\\seb\\Desktop\\Base de datos LP\\C-Database-LP\\Base de Datos LP\\src\\entidad.cpp\"",
-  "file": "C:/Users/seb/Desktop/Base de datos LP/C-Database-LP/Base de Datos LP/src/entidad.cpp",
-  "output": "CMakeFiles/programa.dir/src/entidad.cpp.obj"
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\programa.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\programa.dir\\src\\persona.cpp.obj -c \"C:\\Users\\seb\\Desktop\\Base de datos LP\\C-Database-LP\\Base de Datos LP\\src\\persona.cpp\"",
+  "file": "C:/Users/seb/Desktop/Base de datos LP/C-Database-LP/Base de Datos LP/src/persona.cpp",
+  "output": "CMakeFiles/programa.dir/src/persona.cpp.obj"
+},
+{
+  "directory": "C:/Users/seb/Desktop/Base de datos LP/C-Database-LP/Base de Datos LP/out/build/Base de Datos",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\programa.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\programa.dir\\src\\diccionario.cpp.obj -c \"C:\\Users\\seb\\Desktop\\Base de datos LP\\C-Database-LP\\Base de Datos LP\\src\\diccionario.cpp\"",
+  "file": "C:/Users/seb/Desktop/Base de datos LP/C-Database-LP/Base de Datos LP/src/diccionario.cpp",
+  "output": "CMakeFiles/programa.dir/src/diccionario.cpp.obj"
 },
 {
   "directory": "C:/Users/seb/Desktop/Base de datos LP/C-Database-LP/Base de Datos LP/out/build/Base de Datos",

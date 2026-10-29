@@ -89,26 +89,41 @@ CMakeFiles/programa.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/programa.dir/src/main.cpp.s"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\src\main.cpp" -o CMakeFiles\programa.dir\src\main.cpp.s
 
-CMakeFiles/programa.dir/src/entidad.cpp.obj: CMakeFiles/programa.dir/flags.make
-CMakeFiles/programa.dir/src/entidad.cpp.obj: CMakeFiles/programa.dir/includes_CXX.rsp
-CMakeFiles/programa.dir/src/entidad.cpp.obj: C:/Users/seb/Desktop/Base\ de\ datos\ LP/C-Database-LP/Base\ de\ Datos\ LP/src/entidad.cpp
-CMakeFiles/programa.dir/src/entidad.cpp.obj: CMakeFiles/programa.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\out\build\Base de Datos\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/programa.dir/src/entidad.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/programa.dir/src/entidad.cpp.obj -MF CMakeFiles\programa.dir\src\entidad.cpp.obj.d -o CMakeFiles\programa.dir\src\entidad.cpp.obj -c "C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\src\entidad.cpp"
+CMakeFiles/programa.dir/src/persona.cpp.obj: CMakeFiles/programa.dir/flags.make
+CMakeFiles/programa.dir/src/persona.cpp.obj: CMakeFiles/programa.dir/includes_CXX.rsp
+CMakeFiles/programa.dir/src/persona.cpp.obj: C:/Users/seb/Desktop/Base\ de\ datos\ LP/C-Database-LP/Base\ de\ Datos\ LP/src/persona.cpp
+CMakeFiles/programa.dir/src/persona.cpp.obj: CMakeFiles/programa.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\out\build\Base de Datos\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/programa.dir/src/persona.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/programa.dir/src/persona.cpp.obj -MF CMakeFiles\programa.dir\src\persona.cpp.obj.d -o CMakeFiles\programa.dir\src\persona.cpp.obj -c "C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\src\persona.cpp"
 
-CMakeFiles/programa.dir/src/entidad.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/programa.dir/src/entidad.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\src\entidad.cpp" > CMakeFiles\programa.dir\src\entidad.cpp.i
+CMakeFiles/programa.dir/src/persona.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/programa.dir/src/persona.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\src\persona.cpp" > CMakeFiles\programa.dir\src\persona.cpp.i
 
-CMakeFiles/programa.dir/src/entidad.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/programa.dir/src/entidad.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\src\entidad.cpp" -o CMakeFiles\programa.dir\src\entidad.cpp.s
+CMakeFiles/programa.dir/src/persona.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/programa.dir/src/persona.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\src\persona.cpp" -o CMakeFiles\programa.dir\src\persona.cpp.s
+
+CMakeFiles/programa.dir/src/diccionario.cpp.obj: CMakeFiles/programa.dir/flags.make
+CMakeFiles/programa.dir/src/diccionario.cpp.obj: CMakeFiles/programa.dir/includes_CXX.rsp
+CMakeFiles/programa.dir/src/diccionario.cpp.obj: C:/Users/seb/Desktop/Base\ de\ datos\ LP/C-Database-LP/Base\ de\ Datos\ LP/src/diccionario.cpp
+CMakeFiles/programa.dir/src/diccionario.cpp.obj: CMakeFiles/programa.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\out\build\Base de Datos\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/programa.dir/src/diccionario.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/programa.dir/src/diccionario.cpp.obj -MF CMakeFiles\programa.dir\src\diccionario.cpp.obj.d -o CMakeFiles\programa.dir\src\diccionario.cpp.obj -c "C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\src\diccionario.cpp"
+
+CMakeFiles/programa.dir/src/diccionario.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/programa.dir/src/diccionario.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\src\diccionario.cpp" > CMakeFiles\programa.dir\src\diccionario.cpp.i
+
+CMakeFiles/programa.dir/src/diccionario.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/programa.dir/src/diccionario.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\src\diccionario.cpp" -o CMakeFiles\programa.dir\src\diccionario.cpp.s
 
 CMakeFiles/programa.dir/src/menuInicio.cpp.obj: CMakeFiles/programa.dir/flags.make
 CMakeFiles/programa.dir/src/menuInicio.cpp.obj: CMakeFiles/programa.dir/includes_CXX.rsp
 CMakeFiles/programa.dir/src/menuInicio.cpp.obj: C:/Users/seb/Desktop/Base\ de\ datos\ LP/C-Database-LP/Base\ de\ Datos\ LP/src/menuInicio.cpp
 CMakeFiles/programa.dir/src/menuInicio.cpp.obj: CMakeFiles/programa.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\out\build\Base de Datos\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/programa.dir/src/menuInicio.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\out\build\Base de Datos\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/programa.dir/src/menuInicio.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/programa.dir/src/menuInicio.cpp.obj -MF CMakeFiles\programa.dir\src\menuInicio.cpp.obj.d -o CMakeFiles\programa.dir\src\menuInicio.cpp.obj -c "C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\src\menuInicio.cpp"
 
 CMakeFiles/programa.dir/src/menuInicio.cpp.i: cmake_force
@@ -123,7 +138,7 @@ CMakeFiles/programa.dir/src/menuNuevoDiccionario.cpp.obj: CMakeFiles/programa.di
 CMakeFiles/programa.dir/src/menuNuevoDiccionario.cpp.obj: CMakeFiles/programa.dir/includes_CXX.rsp
 CMakeFiles/programa.dir/src/menuNuevoDiccionario.cpp.obj: C:/Users/seb/Desktop/Base\ de\ datos\ LP/C-Database-LP/Base\ de\ Datos\ LP/src/menuNuevoDiccionario.cpp
 CMakeFiles/programa.dir/src/menuNuevoDiccionario.cpp.obj: CMakeFiles/programa.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\out\build\Base de Datos\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/programa.dir/src/menuNuevoDiccionario.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\out\build\Base de Datos\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/programa.dir/src/menuNuevoDiccionario.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/programa.dir/src/menuNuevoDiccionario.cpp.obj -MF CMakeFiles\programa.dir\src\menuNuevoDiccionario.cpp.obj.d -o CMakeFiles\programa.dir\src\menuNuevoDiccionario.cpp.obj -c "C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\src\menuNuevoDiccionario.cpp"
 
 CMakeFiles/programa.dir/src/menuNuevoDiccionario.cpp.i: cmake_force
@@ -138,7 +153,7 @@ CMakeFiles/programa.dir/src/menuEntidades.cpp.obj: CMakeFiles/programa.dir/flags
 CMakeFiles/programa.dir/src/menuEntidades.cpp.obj: CMakeFiles/programa.dir/includes_CXX.rsp
 CMakeFiles/programa.dir/src/menuEntidades.cpp.obj: C:/Users/seb/Desktop/Base\ de\ datos\ LP/C-Database-LP/Base\ de\ Datos\ LP/src/menuEntidades.cpp
 CMakeFiles/programa.dir/src/menuEntidades.cpp.obj: CMakeFiles/programa.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\out\build\Base de Datos\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/programa.dir/src/menuEntidades.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\out\build\Base de Datos\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/programa.dir/src/menuEntidades.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/programa.dir/src/menuEntidades.cpp.obj -MF CMakeFiles\programa.dir\src\menuEntidades.cpp.obj.d -o CMakeFiles\programa.dir\src\menuEntidades.cpp.obj -c "C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\src\menuEntidades.cpp"
 
 CMakeFiles/programa.dir/src/menuEntidades.cpp.i: cmake_force
@@ -153,7 +168,7 @@ CMakeFiles/programa.dir/src/menuAtributos.cpp.obj: CMakeFiles/programa.dir/flags
 CMakeFiles/programa.dir/src/menuAtributos.cpp.obj: CMakeFiles/programa.dir/includes_CXX.rsp
 CMakeFiles/programa.dir/src/menuAtributos.cpp.obj: C:/Users/seb/Desktop/Base\ de\ datos\ LP/C-Database-LP/Base\ de\ Datos\ LP/src/menuAtributos.cpp
 CMakeFiles/programa.dir/src/menuAtributos.cpp.obj: CMakeFiles/programa.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\out\build\Base de Datos\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/programa.dir/src/menuAtributos.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\out\build\Base de Datos\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/programa.dir/src/menuAtributos.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/programa.dir/src/menuAtributos.cpp.obj -MF CMakeFiles\programa.dir\src\menuAtributos.cpp.obj.d -o CMakeFiles\programa.dir\src\menuAtributos.cpp.obj -c "C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\src\menuAtributos.cpp"
 
 CMakeFiles/programa.dir/src/menuAtributos.cpp.i: cmake_force
@@ -168,7 +183,7 @@ CMakeFiles/programa.dir/src/menuDatos.cpp.obj: CMakeFiles/programa.dir/flags.mak
 CMakeFiles/programa.dir/src/menuDatos.cpp.obj: CMakeFiles/programa.dir/includes_CXX.rsp
 CMakeFiles/programa.dir/src/menuDatos.cpp.obj: C:/Users/seb/Desktop/Base\ de\ datos\ LP/C-Database-LP/Base\ de\ Datos\ LP/src/menuDatos.cpp
 CMakeFiles/programa.dir/src/menuDatos.cpp.obj: CMakeFiles/programa.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\out\build\Base de Datos\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/programa.dir/src/menuDatos.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\out\build\Base de Datos\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/programa.dir/src/menuDatos.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/programa.dir/src/menuDatos.cpp.obj -MF CMakeFiles\programa.dir\src\menuDatos.cpp.obj.d -o CMakeFiles\programa.dir\src\menuDatos.cpp.obj -c "C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\src\menuDatos.cpp"
 
 CMakeFiles/programa.dir/src/menuDatos.cpp.i: cmake_force
@@ -183,7 +198,7 @@ CMakeFiles/programa.dir/src/menuAbrirDiccionario.cpp.obj: CMakeFiles/programa.di
 CMakeFiles/programa.dir/src/menuAbrirDiccionario.cpp.obj: CMakeFiles/programa.dir/includes_CXX.rsp
 CMakeFiles/programa.dir/src/menuAbrirDiccionario.cpp.obj: C:/Users/seb/Desktop/Base\ de\ datos\ LP/C-Database-LP/Base\ de\ Datos\ LP/src/menuAbrirDiccionario.cpp
 CMakeFiles/programa.dir/src/menuAbrirDiccionario.cpp.obj: CMakeFiles/programa.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\out\build\Base de Datos\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/programa.dir/src/menuAbrirDiccionario.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\out\build\Base de Datos\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/programa.dir/src/menuAbrirDiccionario.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/programa.dir/src/menuAbrirDiccionario.cpp.obj -MF CMakeFiles\programa.dir\src\menuAbrirDiccionario.cpp.obj.d -o CMakeFiles\programa.dir\src\menuAbrirDiccionario.cpp.obj -c "C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\src\menuAbrirDiccionario.cpp"
 
 CMakeFiles/programa.dir/src/menuAbrirDiccionario.cpp.i: cmake_force
@@ -197,7 +212,8 @@ CMakeFiles/programa.dir/src/menuAbrirDiccionario.cpp.s: cmake_force
 # Object files for target programa
 programa_OBJECTS = \
 "CMakeFiles/programa.dir/src/main.cpp.obj" \
-"CMakeFiles/programa.dir/src/entidad.cpp.obj" \
+"CMakeFiles/programa.dir/src/persona.cpp.obj" \
+"CMakeFiles/programa.dir/src/diccionario.cpp.obj" \
 "CMakeFiles/programa.dir/src/menuInicio.cpp.obj" \
 "CMakeFiles/programa.dir/src/menuNuevoDiccionario.cpp.obj" \
 "CMakeFiles/programa.dir/src/menuEntidades.cpp.obj" \
@@ -209,7 +225,8 @@ programa_OBJECTS = \
 programa_EXTERNAL_OBJECTS =
 
 programa.exe: CMakeFiles/programa.dir/src/main.cpp.obj
-programa.exe: CMakeFiles/programa.dir/src/entidad.cpp.obj
+programa.exe: CMakeFiles/programa.dir/src/persona.cpp.obj
+programa.exe: CMakeFiles/programa.dir/src/diccionario.cpp.obj
 programa.exe: CMakeFiles/programa.dir/src/menuInicio.cpp.obj
 programa.exe: CMakeFiles/programa.dir/src/menuNuevoDiccionario.cpp.obj
 programa.exe: CMakeFiles/programa.dir/src/menuEntidades.cpp.obj
@@ -220,7 +237,7 @@ programa.exe: CMakeFiles/programa.dir/build.make
 programa.exe: CMakeFiles/programa.dir/linkLibs.rsp
 programa.exe: CMakeFiles/programa.dir/objects1.rsp
 programa.exe: CMakeFiles/programa.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\out\build\Base de Datos\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable programa.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\seb\Desktop\Base de datos LP\C-Database-LP\Base de Datos LP\out\build\Base de Datos\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable programa.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\programa.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

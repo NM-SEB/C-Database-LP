@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/programa.dir/src/entidad.cpp.obj"
-  "CMakeFiles/programa.dir/src/entidad.cpp.obj.d"
+  "CMakeFiles/programa.dir/src/diccionario.cpp.obj"
+  "CMakeFiles/programa.dir/src/diccionario.cpp.obj.d"
   "CMakeFiles/programa.dir/src/main.cpp.obj"
   "CMakeFiles/programa.dir/src/main.cpp.obj.d"
   "CMakeFiles/programa.dir/src/menuAbrirDiccionario.cpp.obj"
@@ -15,6 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/programa.dir/src/menuInicio.cpp.obj.d"
   "CMakeFiles/programa.dir/src/menuNuevoDiccionario.cpp.obj"
   "CMakeFiles/programa.dir/src/menuNuevoDiccionario.cpp.obj.d"
+  "CMakeFiles/programa.dir/src/persona.cpp.obj"
+  "CMakeFiles/programa.dir/src/persona.cpp.obj.d"
   "libprograma.dll.a"
   "programa.exe"
   "programa.exe.manifest"
