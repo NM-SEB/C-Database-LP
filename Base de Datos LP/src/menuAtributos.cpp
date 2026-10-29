@@ -26,14 +26,11 @@ void menuAtributos::iniciarMenu(){
             case 4:
                 std::cout << "\nModificando atributo. . . (modificar atributo)" << std::endl;
                 break;
-
+            case 5:
+                return;
             default:
+                std::cout << "\nSeleccion invalida!" << std::endl;
                 break;
         }
-
-        if(res != 1 && res != 2 && res != 3 && res != 4 && res != 5){
-            std::cout << "\nSeleccion invalida!" << std::endl;
-        }
-
     }while(res != 5);
 }
