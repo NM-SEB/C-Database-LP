@@ -28,6 +28,7 @@ void menuInicio::iniciarMenu(){
 
         if(res != 1 && res != 2 && res != 3){
             std::cout << "\nSeleccion invalida!" << std::endl;
+            res = 0;
         }
 
     }while(res != 3);
